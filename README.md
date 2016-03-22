@@ -22,3 +22,8 @@ bin/solr create -c adobe_code
 Post the example
 
 bin/post -c adobe_code example/exampledocs/*.xml
+
+http://localhost:8983/solr/adobe_code/select?q=video&fl=id,name,price
+
+http://172.16.106.130:8983/solr/adobe_code/browse
+
